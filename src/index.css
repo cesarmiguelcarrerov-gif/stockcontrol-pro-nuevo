@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  height: 72px;
+  background: #111827;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-icon {
+  width: 42px;
+  height: 42px;
+  background: #2563eb;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.logo span {
+  font-size: 11px;
+  color: #60a5fa;
+  font-weight: bold;
+}
+
+.main {
+  min-height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.welcome {
+  width: 100%;
+  max-width: 700px;
+  background: white;
+  border-radius: 16px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.welcome h2 {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+.welcome p {
+  color: #6b7280;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.welcome button {
+  margin-top: 20px;
+  border: 0;
+  background: #2563eb;
+  color: white;
+  padding: 13px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.welcome button:hover {
+  background: #1d4ed8;
+}
